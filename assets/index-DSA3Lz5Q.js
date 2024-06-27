@@ -449,7 +449,7 @@ var m = reactDomExports;
 }
 
 const remotesMap = {
-'productApp':{url:'http://localhost:4002/assets/remoteEntry.js',format:'esm',from:'vite'}
+'productApp':{url:'https://nicolaspacheco97.github.io/productPage/assets/remoteEntry.js',format:'esm',from:'vite'}
 };
                 const loadJS = async (url, fn) => {
                     const resolvedUrl = typeof url === 'function' ? await url() : url;
