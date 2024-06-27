@@ -11,7 +11,7 @@ export default defineConfig({
       name: "root-app",
       shared: ["react", "react-dom"],
       remotes: {
-        "productApp": "http://localhost:4002/assets/remoteEntry.js"
+        "productApp": "https://nicolaspacheco97.github.io/productPage/assets/remoteEntry.js"
       },
     }),
   ],
